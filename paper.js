@@ -6,8 +6,8 @@ class Paper{
             'friction':0.10,
             'density':1.2
         }
-        this.body = Bodies.circle(x, y,70, options);
-        this.radius = 70;
+        this.body = Bodies.circle(x, y,20, options);
+        this.radius = 20;
         this.image=loadImage("images/paper.png");
 
         
